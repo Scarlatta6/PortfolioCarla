@@ -16,6 +16,17 @@
   width: 150px;
 }
 
+#APlogo, .hashtag {
+  display: inline;
+  align-items: center;
+}
+
+.hashtag {
+  color: rgb(40, 12, 67);
+  font-weight: light;
+  font-size: 1em;
+}
+
 img {
   width: 50px;
 }
@@ -35,6 +46,10 @@ img {
 
   .redes img {
     margin: 00.5em;
+  }
+
+  .btn {
+    margin-bottom: 10px;
   }
 }
 
