@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes {
+  margin-right: 0.5em;
+}
+
+.redes .btn, a {
+  margin-left: 0.5em;
+}
+
+#APlogo{
+  width: 150px;
+}
+
+img {
+  width: 50px;
+}
+
+/*vista movil*/
+
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .redes img {
+    margin: 00.5em;
+  }
+}
+
