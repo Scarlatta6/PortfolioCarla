@@ -1,0 +1,11 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(255, 255, 255);
+}
+
+.vh-100 {
+  background-color: rgb(209, 174, 241);
+}
